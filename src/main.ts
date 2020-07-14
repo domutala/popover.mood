@@ -1,10 +1,8 @@
 import Vue from 'vue';
 import App from './App.vue';
-import dropdown from './index';
+import Popover from '../component';
 
-Vue.use(dropdown);
+Vue.use(Popover);
 Vue.config.productionTip = false;
 
-new Vue({
-  render: h => h(App)
-}).$mount('#app');
+new Vue({ render: h => h(App) }).$mount('#app');

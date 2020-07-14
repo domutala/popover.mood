@@ -1,25 +1,25 @@
 {
-  "name": "dropper.mood",
-  "version": "1.0.5",
+  "name": "popover.mood",
+  "version": "1.0.1",
   "author": {
     "name": "domutala",
     "email": "ibntalla@gmail.com"
   },
-  "description": "The best Vue.js droppdwon component.",
-  "repository": "domutala/dropper.mood",
-  "homepage": "https://domutala.github.io/dropper.mood/",
+  "repository": "domutala/popover.mood",
+  "homepage": "https://github.com/domutala/popover.mood/",
   "license": "MIT",
-  "main": "dist/dropper.common.js",
-  "css": "dist/dropper.css",
-  "qcss": "dist/dropper.scss",
+  "main": "dist/popover.common.js",
+  "css": "dist/popover.css",
+  "scss": "dist/popover.scss",
   "typings": "types/index.d.ts",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build:lib": "vue-cli-service build --target lib --name dropper ./component/index.ts",
+    "build:lib": "vue-cli-service build --target lib --name popover ./component/index.ts",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.4",
+    "dropper.mood": "^1.0.5",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.2",
     "vue-property-decorator": "^8.3.0"
@@ -35,7 +35,7 @@
   },
   "keywords": [
     "dropdown",
-    "dropper",
+    "popover",
     "mood",
     "vue",
     "components",
