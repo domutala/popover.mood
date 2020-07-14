@@ -1,6 +1,6 @@
 {
   "name": "dropper.mood",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "author": {
     "name": "domutala",
     "email": "ibntalla@gmail.com"
@@ -11,12 +11,12 @@
   "license": "MIT",
   "main": "dist/dropper.common.js",
   "css": "dist/dropper.css",
+  "qcss": "dist/dropper.scss",
+  "typings": "types/index.d.ts",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name dropper ./src/index.ts",
-    "lint": "vue-cli-service lint",
-    "git": "git push -u origin master",
-    "deploy": "npm run build && npm publish && npm run git"
+    "build:lib": "vue-cli-service build --target lib --name dropper ./compnent/index.ts",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.4",
@@ -34,16 +34,11 @@
     "vue-template-compiler": "^2.6.11"
   },
   "keywords": [
-    "dropper.mood",
     "dropdown",
     "dropper",
     "mood",
     "vue",
-    "vue",
-    "vue.js",
-    "vue-components",
     "components",
-    "framework",
     "ui"
   ]
 }
